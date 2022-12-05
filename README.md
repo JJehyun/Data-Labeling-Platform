@@ -23,28 +23,7 @@
   
 ---
 
-</center>
-
-## 데이터 라벨링
-
-![](./client/src/help/tutorial/bbox-labeling.gif)
-
-![](./client/src/help/tutorial/polygon-labeling.gif)
-
-![](./client/src/help/tutorial/auto-tracing.gif)
-
-![](./client/src/help/tutorial/ml-semantic-segmentation.gif)
-
-![](./client/src/help/tutorial/project-page.png)
-
----
-
-## 기타 관리자 페이지
-
-| 제목    | 내용    | 설명    |
-| ------- | ------- | ------- |
-| 테스트1 | _강조1_ | 테스트3 |
-
+  
 ## Prerequisites
 
 1. Clone the repo
@@ -78,6 +57,28 @@ cd client && yarn run build && cd ..
 ```bash
 env PORT=80 NODE_ENV=production node server/src/index.js
 ```
+  
+</center>
+
+## 데이터 라벨링
+
+![](./client/src/help/tutorial/bbox-labeling.gif)
+
+![](./client/src/help/tutorial/polygon-labeling.gif)
+
+![](./client/src/help/tutorial/auto-tracing.gif)
+
+![](./client/src/help/tutorial/ml-semantic-segmentation.gif)
+
+![](./client/src/help/tutorial/project-page.png)
+
+---
+
+## 기타 관리자 페이지
+
+| 제목    | 내용    | 설명    |
+| ------- | ------- | ------- |
+| 테스트1 | _강조1_ | 테스트3 |
 
 ## Run in Docker
 
