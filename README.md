@@ -1,3 +1,4 @@
+데이터 라벨링을 위한 웹 페이지 프로젝트
 <center>
 
 # 기술스택 🛠
@@ -11,7 +12,6 @@
 <img alt="Axios" src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
 <div>
 
----
 
 ## Backend
 
