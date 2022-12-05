@@ -7,19 +7,22 @@
 
 ## FrontEnd
 
+<div style={display:flex}>
 <img src="https://img.shields.io/badge/React-3776AB?style=for-the-badge&logo=React&logoColor=white">
 <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
 <img alt="TypeScript" src="https://img.shields.io/badge/recoil-FAB040?style=for-the-badge&logo=Litecoin&logoColor=white">
 <img alt="Axios" src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
+<div>
 
 ---
 
 ## Backend
 
+<div style={display:flex}>
 <img alt="Axios" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white">
 <img alt="Axios" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
 <img alt="Axios" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
-
+<div>
 ---
 
 </center>
