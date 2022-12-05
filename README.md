@@ -1,40 +1,58 @@
-# Image Labeling Tool
+<center>데이터 라벨링 플랫폼 웹 (오픈소스 머였지 머 사용함)
 
-This web app allows you to label images, draw bounding boxes, shapes, collect information in forms with dropdowns, checkboxes and inputs.
+<br />
+<br />
 
-The labeling UI provides a lot of features for drawing polygon shapes, editing them with assisted tracing with auto-tracing based on edges or an external ML model.
+# 기술스택 🛠
 
-Use it when you need to segment and label multiple images, either yourself or by a group. This tool makes it easy to gather and later export the data in a format compatible with [LabelMe](https://github.com/wkentaro/labelme). You can use this tool as an alternative to self-hosted tools like [LabelMe](https://github.com/wkentaro/labelme), [js-segment-annotator](https://github.com/kyamagu/js-segment-annotator), etc or hosted services like [LabelBox](https://www.labelbox.com/).
+## FrontEnd
 
-## [Labeling Demo](http://slv.io/label-tool/demo/)
+<img src="https://img.shields.io/badge/React-3776AB?style=for-the-badge&logo=React&logoColor=white">
+<img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white">
+<img alt="TypeScript" src="https://img.shields.io/badge/recoil-FAB040?style=for-the-badge&logo=Litecoin&logoColor=white">
+<img alt="Axios" src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white">
 
-Demo of the labeling interface with all data served statically (no persistence, reverts on refresh).
+---
 
-## Screenshots
+## Backend
 
-Bounding box labeling:
+<img alt="Axios" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white">
+<img alt="Axios" src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=MariaDB&logoColor=white">
+<img alt="Axios" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+
+---
+
+</center>
+
+## 데이터 라벨링
 
 ![](./client/src/help/tutorial/bbox-labeling.gif)
 
-Segmentation with polygons:
-
 ![](./client/src/help/tutorial/polygon-labeling.gif)
-
-Automatic tracing:
 
 ![](./client/src/help/tutorial/auto-tracing.gif)
 
-Assisted segmentation with Tensor Flow Serving:
-
 ![](./client/src/help/tutorial/ml-semantic-segmentation.gif)
-
-Project configuration and custom labeling UI:
 
 ![](./client/src/help/tutorial/project-page.png)
 
-## Development
+---
 
-Install npm packages for client, server and the top-level folder:
+## 기타 관리자 페이지
+
+| 제목    | 내용    | 설명    |
+| ------- | ------- | ------- |
+| 테스트1 | _강조1_ | 테스트3 |
+
+## Prerequisites
+
+1. Clone the repo
+
+```bash
+git clone https://github.com/JJehyun/Data-Labeling-Platform.git
+```
+
+2. Install packages
 
 ```bash
 yarn install
@@ -42,9 +60,7 @@ cd server && yarn install && cd ..
 cd client && yarn install && cd ..
 ```
 
-The server will run migrations on the first run if the database file doesn't exist already.
-
-Run in the development mode:
+3. client build & run project
 
 ```bash
 env PORT=3000 API_PORT=3001 yarn start
@@ -58,21 +74,9 @@ Build the client app:
 cd client && yarn run build && cd ..
 ```
 
-Now you can run the server app in prod mode serving the client build:
-
 ```bash
 env PORT=80 NODE_ENV=production node server/src/index.js
 ```
-
-## Config
-
-The following environment variables can be tweaked:
-
-- `PORT` - the part the app is served on (dev, prod)
-- `API_PORT` - to differentiate the port for the API to run on (should be only used in dev)
-- `UPLOADS_PATH` - absolute path where the app stores uploaded images, defaults to server's folder 'uploads'
-- `DATABASE_FILE_PATH` - absolute path of the file where the app stores the SQLite data. Defaults to `database.sqlite` in the server folder
-- `ADMIN_PASSWORD` - sets a simple password on all non-labeler actions (stored in a hased form).
 
 ## Run in Docker
 
