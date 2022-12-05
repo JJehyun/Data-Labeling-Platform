@@ -76,7 +76,7 @@ env PORT=80 NODE_ENV=production node server/src/index.js
 | 제목    | 내용    | 설명    |
 | ------- | ------- | ------- |
 | ![2022-12-05 23;07;35_](https://user-images.githubusercontent.com/86187456/205658996-4fd5cccb-7764-4753-91b8-8bce378f8156.png) | ![2022-12-05 23;08;49_](https://user-images.githubusercontent.com/86187456/205659003-42e8dfc8-6d34-400a-9908-6564b3d3f566.png) | ![2022-12-05 23;09;04_](https://user-images.githubusercontent.com/86187456/205659010-2e7e8f0f-17da-4199-8796-9af210ab6870.png) |
-  | ------- | ------- | ------- |
+  |![2022-12-05 23;09;20_](https://user-images.githubusercontent.com/86187456/205659021-3dee14ff-f60d-4dca-8944-19995dc00932.png)| ![2022-12-05 23;09;39_](https://user-images.githubusercontent.com/86187456/205659036-a854da08-9b6f-4df5-8add-7fafeb091c3c.png) | ![2022-12-05 23;10;13_](https://user-images.githubusercontent.com/86187456/205659042-1269a947-2e58-4dc6-a9a6-cfc3fa186211.png) |
 
 ## Run in Docker
 
@@ -114,13 +114,3 @@ CURRENT_UID=$(id -u):$(id -g) docker-compose up -d --build
 # if it only needs to run,
 CURRENT_UID=$(id -u):$(id -g) docker-compose up -d
 ```
-
-## Project Support and Development
-
-This project has been developed as part of my internship at the [NCSOFT](http://global.ncsoft.com/global/) Vision AI Lab in the beginning of 2019.
-![2022-12-05 23;07;35_](https://user-images.githubusercontent.com/86187456/205658996-4fd5cccb-7764-4753-91b8-8bce378f8156.png)
-![2022-12-05 23;08;49_](https://user-images.githubusercontent.com/86187456/205659003-42e8dfc8-6d34-400a-9908-6564b3d3f566.png)
-![2022-12-05 23;09;04_](https://user-images.githubusercontent.com/86187456/205659010-2e7e8f0f-17da-4199-8796-9af210ab6870.png)
-![2022-12-05 23;09;20_](https://user-images.githubusercontent.com/86187456/205659021-3dee14ff-f60d-4dca-8944-19995dc00932.png)
-![2022-12-05 23;09;39_](https://user-images.githubusercontent.com/86187456/205659036-a854da08-9b6f-4df5-8add-7fafeb091c3c.png)
-![2022-12-05 23;10;13_](https://user-images.githubusercontent.com/86187456/205659042-1269a947-2e58-4dc6-a9a6-cfc3fa186211.png)
